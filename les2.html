@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .audio, .video-left {
+            flex: 1;
+            min-width: 300px;
+        }
+        .video-right {
+            flex: 1;
+            min-width: 300px;
+            text-align: right;
+        }
+		
+				.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+}
+		
+		
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="audio">
+            <h2>ABBA - Dancing Queen</h2>
+            <audio controls autoplay loop>
+                <source src="element/abbadancing.mp3" type="audio/mpeg">
+                Your Browser Dont Support This Format
+            </audio>
+            
+            <h2>ABBA - Lay All Your Love On Me</h2>
+            <audio controls autoplay loop>
+                <source src="element/abbalayall.mp3" type="audio/mpeg"> 
+                Your Browser Dont Support This Format
+            </audio>
+        </div>
+        
+        <div class="video-left">
+            <h2>Dancing Alien</h2>
+            <video controls autoplay loop>
+                <source src="element/dance.mp4" type="video/mp4">
+                Your Browser Dont Support This Format
+            </video>
+        </div>
+        
+        <div class="video-right">
+            <h2>Dancing Frog</h2>
+            <video controls autoplay loop>
+                <source src="element/frog.mp4" type="video/mp4">
+                Your Browser Dont Support This Format
+            </video>
+        </div>
+    </div>
+	
+
+        <h1>Beoordeling: 10/10</h1>
+        <p>Ik krijg deze score omdat ik de video's en foto's heb geplaatst en heb gezorgd voor een echt legendarische weergave, de video's zien er erg cool uit omdat ze 4k 120fps zijn. </p>
+	
+	
+	<div class="container">
+    <a href="start.html" class="back-button">Terug Start Pagina</a>
+</div>
+	
+	
+</body>
+</html>

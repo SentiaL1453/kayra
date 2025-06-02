@@ -1,0 +1,40 @@
+
+body {
+    background-color: gold;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.video {
+    width: 30%;
+    text-align: center;
+}
+
+
+video {
+    width: 80%;
+}
+
+.image-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.orange { background-color: orange; }
+.purple { background-color: purple; }
